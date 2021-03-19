@@ -1,0 +1,113 @@
+﻿@model IEnumerable<PruebaBackendASEINFO.Models.Producto>
+
+@{
+    ViewData["Title"] = "Catálogo";
+}
+<div class="shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="row p-2">
+        <form class="form-inline col-md-12" asp-action="Index">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="Nombre">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<h1 class="text-center font-weight-light">Catálogo de productos</h1>
+<hr />
+
+<div class="row mt-2">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card">
+                <img class="card-img-top" src="@("~/Image/"+item.Imagen)" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title text-center">@Html.DisplayFor(modelItem => item.Nombre)</h5>
+                    <p class="card-text text-center">@Html.DisplayFor(model => item.Descripcion)</p>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-action="Details" class="btn btn-warning" asp-route-id="@item.IdProducto">Ver producto</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Habilitado)
+            </th>
+            <th>
+                Categoría
+            </th>
+            <th>
+                Marca
+            </th>
+            <th>
+                Tipo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                <img src="@("~/image/"+item.Imagen)" asp-append-version="true" width="250px" height="250px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Habilitado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaModifica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IpModifica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdMarcaNavigation.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoNavigation.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdProducto">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdProducto">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdProducto">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
