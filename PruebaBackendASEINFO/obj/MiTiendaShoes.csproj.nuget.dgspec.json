@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\c#\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj": {}
+    "C:\\Users\\Nelsonv\\Documents\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj": {}
   },
   "projects": {
-    "C:\\c#\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj": {
+    "C:\\Users\\Nelsonv\\Documents\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\c#\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj",
+        "projectUniqueName": "C:\\Users\\Nelsonv\\Documents\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj",
         "projectName": "MiTiendaShoes",
-        "projectPath": "C:\\c#\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj",
+        "projectPath": "C:\\Users\\Nelsonv\\Documents\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj",
         "packagesPath": "C:\\Users\\Nelsonv\\.nuget\\packages\\",
-        "outputPath": "C:\\c#\\MiTiendaShoes\\PruebaBackendASEINFO\\obj\\",
+        "outputPath": "C:\\Users\\Nelsonv\\Documents\\MiTiendaShoes\\PruebaBackendASEINFO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nelsonv\\AppData\\Roaming\\NuGet\\NuGet.Config",

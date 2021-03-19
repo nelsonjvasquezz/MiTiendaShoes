@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CW5bBOujqgCTpPJJ13XxNB0hs73wRr45yuUqI4ToIgyn9/SKfGK7jYxv9pCwSb7bZSj6HMyMlEcgCA4mtu5ubA==",
+  "dgSpecHash": "YTHXaqtLWhE1PqYtq/40wv+U0AGWiEwLHdN/nIQipOGGXYGQ/eRKC6ml4bfPXiVPOKQJyr3/xHe/F1ehbcZoYw==",
   "success": true,
-  "projectFilePath": "C:\\c#\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj",
+  "projectFilePath": "C:\\Users\\Nelsonv\\Documents\\MiTiendaShoes\\PruebaBackendASEINFO\\MiTiendaShoes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nelsonv\\.nuget\\packages\\cryptohelper\\3.0.2\\cryptohelper.3.0.2.nupkg.sha512",
     "C:\\Users\\Nelsonv\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
